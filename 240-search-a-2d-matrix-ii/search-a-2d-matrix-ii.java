@@ -4,12 +4,12 @@ class Solution {
         int col = matrix[0].length-1;
 
         while(row<matrix.length && col >=0){
-            int curr = matrix[row][col];
+            //int curr = matrix[row][col];
 
-            if(target == curr){
+            if(matrix[row][col] == target){
                 return true;
             }
-            else if(target<curr){
+            else if(matrix[row][col]>target){
                 col--;
             }
             else{
