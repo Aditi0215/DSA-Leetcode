@@ -3,6 +3,7 @@ class Solution {
          StringBuilder ans = new StringBuilder();
         int count = 0;
 
+//CHaracter array
         for(char ch : s.toCharArray()) {
 
             if(ch == '(') {
