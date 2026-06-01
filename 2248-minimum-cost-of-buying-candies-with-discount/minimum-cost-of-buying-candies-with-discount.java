@@ -1,6 +1,6 @@
 class Solution {
     public int minimumCost(int[] cost) {
-         Arrays.sort(cost); // ascending
+        Arrays.sort(cost); // ascending
 
         int total = 0;
         int n = cost.length;
@@ -11,7 +11,7 @@ class Solution {
             if(i - 1 >= 0) {
                 total += cost[i - 1]; // second expensive
             }
-            // skip i-2 (free candy)
+            // skip i-2 (free candys)
         }
 
         return total;
