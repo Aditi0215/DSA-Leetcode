@@ -3,10 +3,7 @@ class Solution {
         int leftSum[] = new int[nums.length];
         int rightSum[] = new int[nums.length];
         int ans[] = new int[nums.length];
-        if(nums.length<=1){
-            ans[0] = 0;
-            return ans;
-        }
+        
 
         int sum1 = 0;
         for(int i=1;i<nums.length;i++){
